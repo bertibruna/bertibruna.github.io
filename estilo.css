@@ -81,6 +81,13 @@ section li a {
   color: black;
 }
 
+section>img {
+  margin: 0;
+  float: left;
+  width: 12.6em;
+
+}
+
 section figure {
   margin: 0;
   text-align: center;
