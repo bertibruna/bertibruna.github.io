@@ -41,6 +41,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:active {
+  color: rgb(247,0,150);
+}
+
 nav>ul {
   padding: 0;
   margin: 0;
@@ -56,29 +60,35 @@ nav>ul>li {
 }
 
 section {
-  padding: 2em 0;
+  padding: 0;
+}
+
+section ul {
+  margin: 0;
+  padding: 0;
 }
 
 section ul>li {
   list-style: none;
-  display: inline;
-}
-
-section figure {
   display: inline-block;
+  width: 33%;
+  margin: 1em 0;
 }
 
 section li a {
+  text-align: center;
   text-decoration: none;
   color: black;
 }
 
-section li a:active {
-  color: rgb(247,0,150);
+section figure {
+  margin: 0;
+  text-align: center;
 }
 
-section img {
-  width: 16em;
+figure img {
+  width: 75%;
+  text-align: center;
 }
 
 section figcaption {
@@ -92,11 +102,6 @@ section p {
   font-size: 1.6em;
   text-align: center;
   color: rgb(247,0,150);
-}
-
-section img {
-  float: left;
-  margin-right: 2em;
 }
 
 footer {
