@@ -41,7 +41,7 @@ nav a {
   text-decoration: none;
 }
 
-nav a:active {
+nav a.active {
   color: rgb(247,0,150);
 }
 
